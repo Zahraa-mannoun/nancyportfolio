@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Nancy's CV </title>
+        <style>
+            body{
+                 background-color: #fce6fc;
+                 }
+				 
+            .logo{
+                 color:rgb(237, 17, 208);
+                 font-size:35px ;
+                 line-height: 80px;
+                 padding: 0 100px;
+                 font-weight: bold;
+		         }
+				 
+            .topnav {
+                 overflow: hidden;
+		         height:80px;
+                 background-color: white;
+                 position: fixed;
+		         top:0;
+		         left:0;
+		         width: 100%;
+                 }
+				 
+            .topnav a {
+                 float: right;
+                 color: black;
+                 text-align: center;
+                 padding: 14px 16px;
+                 text-decoration: none;
+                 font-size: 17px;
+			     padding:10px;
+			     margin:15px;
+                 }
+				 
+            .topnav a:hover {
+                 background-color: plum;
+                 color: black;
+                 }
+				 
+            .topnav a.active {
+                 background-color: white;
+                 color: white;
+			     }
+				 
+		    .p1{
+		         font-size:60px;
+		         margin:40px;
+		         font-family: 'Arial', sans-serif;
+		         }
+		
+		    .image{
+		         border-radius:50px;
+		         margim:50px;
+		         border: 15px solid plum;
+		         cursor:pointer;
+			     transition:  width 1s, height 1s;
+		         }
+				 
+		    .image:hover{
+		         width: 500px;
+                 height: 500px;
+                  }
+				  
+				 
+		    fieldset{
+		         border: 4px solid plum;
+		         border-radius:8px;
+		         margin-bottom:20px;
+		         }
+				 
+			 legend{
+			     font-weight:bold;
+				 font-size:1.2em;
+				 margin-bottom:10px;
+				 color:rgb(237, 17, 208);
+				 font-style:italic;
+				 }
+				 
+	        .box{
+                 width:150px;
+                 height:150px;	
+                 background-color:white;
+				 border: 15px solid plum;
+				 cursor:pointer;
+				 }
+		
+            .container1{
+			     display: flex;
+				 flex-direction:column;
+				 align-items: center;
+				 justify-content: center;
+				 height:50vh;
+				 flex-wrap: wrap;
+				 }
+				 
+			.box1{
+                 width:400px;
+                 height:450px;	
+                 background-color:white;
+				 border: 15px solid plum;
+				 cursor:pointer;
+				 align:center;
+				 }
+				 
+			.container2 {
+                 max-width: 500px;
+                 margin: 0 auto;
+                 padding: 20px;
+				 }
+
+		    .clickproj{
+                 color: rgb(197, 150, 197);
+                 background-color:plum;
+                 width: 150px;
+                 height: 50px;
+                 border-radius: 25px;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 cursor: pointer;
+                 }
+				 
+            .clickproj a{
+                 text-decoration: none;
+                 text-align: center;
+                 color:purple;
+                 border-radius: 5px;
+                 }
+		
+            .clickproj:hover{
+                  background-color:rgb(230, 61, 151);
+                 color:  rgb(218, 26, 218);
+				 }
+				 
+		    .p2{
+			     color:purple;
+			     align:center;
+			     font-size:30px;
+			     font-weight:bold;
+			     }
+             
+			 .container3{
+			     display: flex;
+				 flex-direction: row;
+				 align-items: center;
+				 justify-content: center;
+				 height:10vh;
+				 flex-wrap: wrap;
+				  margin: 0 10px;
+				  }
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+           <label class="logo"> Nancy Dhainy </label>
+		   <a href="#contact"> Contact </a> 
+           <<a href="#projects">Projects </a>
+           <a href="#skills"> Skills </a>
+		   <a href="#about"> About </a> 
+           <a href="#home"> Home </a> 	
+           			   		   
+            </div>
+			<br><br/>
+		   <br><br/>
+		   <br><br/>
+		    <img src="./me.jpg" width="450" height="450" alt="portfolio" align="right" class="image"/>
+		   <br><br/>
+		   <br><br/>
+		   <br><br/>
+		 <p class="p1">
+		     HELLO <br>  
+		     I'm  Nancy <br>
+			 a  Web Developer
+		 </p>
+		 <br><br/>
+		 <br><br/>
+		 <br><br/>
+		 <br><br/>
+		 <br><br/>
+		 <br><br/>
+		 <fieldset>
+		     <legend><a id="about"> ABOUT </a> </legend>
+				  <p> Dedicated web developer and MIS student at Lebanese University.<br>
+				  Proficient in coding languages and frameworks, balancing academic rigor with practical application.<br>
+				  Committed to enhancing both technical and managerial skills to excel in the dynamic intersection of technology and business.   
+				  </p>
+		 </fieldset>
+		 <br>
+		 <fieldset>
+		         <legend> <a id="skills"> SKILLS </a> </legend>
+		             <div class="container1">
+				     <div class="box">
+				      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPmou6evgeGnMsU4Kac3TEv60q65uqVigxib1NYMmoFw&s.jpg" width="150" height="100">
+					  <p align="center"> 90% HTML </p>
+					  </div>
+					  
+					  <div class="box">
+				      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="150" height="100">
+					  <p align="center"> 90% CSS </p>
+					 </div>
+					 
+					  <div class="box">
+				      <img src="https://iconape.com/wp-content/png_logo_vector/database.png" width="150" height="100">
+					  <p align="center"> 80% CSS </p>
+					 </div>
+					 <div class="box">
+				      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png" width="150" height="100">
+					  <p align="center"> 60% C </p>
+					 </div>
+					 <div class="box">
+				      <img src="https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.png" width="150" height="100">
+					  <p align="center"> 70% java</p>
+					 </div>
+					 </div>
+		 </fieldset>
+		 <br>
+         <fieldset>
+             <legend><a id="projects"> PROJECT </a></legend>
+			     <div class="container2">
+			     <div class="box1">
+				     <img src="./Screenshot.png" width="400" height="300"/>
+					 <p class="p2" align="center"> Pizza website </p>
+					 <div class="clickproj">
+					 <a href="https://nancypizzasite.glitch.me/nancypizza/pizzanancy.html" target="_blank"> CLICK TO SEE </a>
+					 </div>
+				 </div>	 
+				 </div>
+		 </fieldset>
+		 <br>
+		 <fieldset id="contact">
+		     <legend> CONTACT</legend>
+			     <div class="container3">
+			      <p> Instagram:</p>
+				 <a href="https://www.instagram.com/nancy_dh11?igsh=dXFyNGF2d2k1em01&utm_source=qr">
+                 <img src="https://1000logos.net/wp-content/uploads/2017/02/insta-logo.png" width="50" height="50"/>
+				 </a>
+				 <p> Facebook:</p>
+				 <a href="https://www.facebook.com/nancy.dhainy.9?mibextid=LQQJ4d">
+				 <img src="https://cdn-icons-png.flaticon.com/512/59/59439.png"width="50" height="50"/>
+				 </a>
+				 <p> Telephone:</p>
+				  <a href="tel:+96178980280">
+		         <img src="https://w7.pngwing.com/pngs/279/613/png-transparent-mobile-phones-computer-icons-telephone-font-awesome-phone-miscellaneous-text-logo.png" width="50" height="50"/>
+	         	 </a>
+				 <p> Gmail:</p>
+				  <a href="mailto:nancydhainy875@gmail.com">
+		         <img src="https://e7.pngegg.com/pngimages/818/690/png-clipart-email-computer-icons-gmail-email-miscellaneous-angle.png" width="50" height="50"/>
+	         	 </a>
+				  </div>
+		 </fieldset>
+		
+        </body>
+</html>
